@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bucketlist_design"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:focusable="true">
+
+    <TextView
+        android:id="@+id/bucketListTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Bucket List 1"
+        android:gravity="center_horizontal"
+        android:textSize="40sp"
+        android:padding="3dp"
+        android:fontFamily="sans-serif-black"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -28,14 +28,14 @@ class AddBucketList : AppCompatActivity() {
         binding.addDestinationButton.setOnClickListener {
             //and store it in Firestore
             var destination = binding.enterDestinationName.text.toString()
-            var description = binding.enterDescription.text.toString()
             var ranking = binding.top10Spinner.selectedItem.toString()
+            var description = binding.enterDescription.text.toString()
 
             if (destination.isNotEmpty() && description.isNotEmpty()) {
                 var uID = auth.currentUser?.uid
 
                 //create a bucketlist and send to Firestore
-                var bucketList = BucketList(destination, uID)
+                var bucketList = BucketList(destination, description, ranking, uID)
 
                 //connect to Firebase Firestore
                 //if the collection doesn't exist, it will add it

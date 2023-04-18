@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         //view bucket list button
         binding.viewBucketListButton.setOnClickListener {//when the button is clicked for the create tournament
             //by creating an explicit intent
-            //val intent = Intent(this, ViewBucketList::class.java)
+            val intent = Intent(this, ViewBucketList::class.java)
             startActivity(intent)
         }
 

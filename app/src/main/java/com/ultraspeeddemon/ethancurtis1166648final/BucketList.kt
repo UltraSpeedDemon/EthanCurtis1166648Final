@@ -1,8 +1,10 @@
 package com.ultraspeeddemon.ethancurtis1166648final
 
 class BucketList (
-        var destination : String? = null,
-        var uid : String? = null,
+        var destination: String? = null,
+        var description: String? = null,
+        var ranking: String? = null,
+        var uid: String? = null,
     ){
         override fun toString(): String {
             if (destination != null) {
