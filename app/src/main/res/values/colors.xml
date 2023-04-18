@@ -3,8 +3,9 @@
     <color name="purple_200">#FFBB86FC</color>
     <color name="lightgreen">#C2B280</color>
     <color name="green">#023020</color>
-    <color name="skyblue">#0000FF</color>
+    <color name="skyblue">#C2B280</color>
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>W
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey">#808080</color>
 </resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tropicalbackground"
+    tools:context=".AddBucketList">
+
+    <EditText
+        android:id="@+id/enterDestinationName"
+        android:layout_width="315dp"
+        android:layout_height="51dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="@string/enter_destination_name"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHint="@color/grey"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.15" />
+
+    <EditText
+        android:id="@+id/enterDescription"
+        android:layout_width="352dp"
+        android:layout_height="269dp"
+        android:background="@color/white"
+        android:gravity="top|left"
+        android:hint="@string/enter_description"
+        android:inputType="textMultiLine"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.389" />
+
+    <Spinner
+        android:id="@+id/top10Spinner"
+        android:layout_width="110dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="44dp"
+        android:background="@color/white"
+        android:entries="@array/top10"
+        android:textColor="@color/black"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enterDescription"
+        app:layout_constraintVertical_bias="0.058" />
+
+    <Button
+        android:id="@+id/addDestinationButton"
+        android:layout_width="280dp"
+        android:layout_height="68dp"
+        android:backgroundTint="@color/lightgreen"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/add_destination"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.944" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

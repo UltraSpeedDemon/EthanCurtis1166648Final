@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "349724155495",
+    "project_id": "ethancurtis1166648final",
+    "storage_bucket": "ethancurtis1166648final.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:349724155495:android:c462d27069765a8574bec2",
+        "android_client_info": {
+          "package_name": "com.ultraspeeddemon.ethancurtis1166648final"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "349724155495-abga8o4oumj51kl4dja4hp469v36d299.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ultraspeeddemon.ethancurtis1166648final",
+            "certificate_hash": "b43f781716ab59522b53a966bede9f146ecbcbd0"
+          }
+        },
+        {
+          "client_id": "349724155495-5ulerk33cokjd3mr7setequm7veftlfc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6Bp_DlngNYc5OowpL2vqvClOI3UURgf0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "349724155495-5ulerk33cokjd3mr7setequm7veftlfc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="top10">
+    <item>#1 Ranking</item>
+    <item>#2 Ranking</item>
+    <item>#3 Ranking</item>
+    <item>#4 Ranking</item>
+    <item>#5 Ranking</item>
+    <item>#6 Ranking</item>
+    <item>#7 Ranking</item>
+    <item>#8 Ranking</item>
+    <item>#9 Ranking</item>
+    <item>#10 Ranking</item>
+    </string-array>
+</resources>
